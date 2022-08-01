@@ -33,7 +33,7 @@ def main(id):
 if __name__ == '__main__':
   
     print(f"[{time.strftime('%d-%m-%y %X')}] Automation Scrapper Hotel")
-    list_id_location = ['107816','107782','107824']
+    list_id_location = ['107816','107782','107824','102813','103890','102746','103760','103859','107442','103570','107703','103245','106469']
 
     with Pool(5) as p:  
         p.map(main, list_id_location)      
