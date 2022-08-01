@@ -24,7 +24,7 @@ def main(id):
             for hotel in get_all_link:
                 link_hotel.append(hotel)
                 print(f"[{time.strftime('%d-%m-%y %X')}] {hotel}")
-                with open('link_2.txt','a') as f:
+                with open('link.txt','a') as f:
                     f.write(f'{hotel}\n')
         except:
             err = err + 1
