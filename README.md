@@ -7,6 +7,10 @@ Traveloka Hotel Scrapper using Selenium
     
     2. Install requirements: pip install -r requirements.txt
    
+    3. Fill the api_key in config using api key Geocoding google map 
+    
+ ![image](https://user-images.githubusercontent.com/73378179/182207260-08354b4e-f8d2-415b-af48-85c0a402f502.png)
+
     3. run scrape_link.py for scrape the sources hotel
     
 ![image](https://user-images.githubusercontent.com/73378179/182206394-6c05da4d-1de6-4e0e-a8e3-f39179b3003e.png)
